@@ -1,4 +1,4 @@
-package com.example.dev_intensive_2019.models
+package com.example.devintensive.models
 
 import java.util.*
 
@@ -17,7 +17,7 @@ abstract class BaseMessage(val id: String,
             return when(type) {
                 "text" -> TextMessage("$lastId", from, chat,
                     isIncoming, date, payload as String)
-                else -> ImgMessage ("$lastId", from, chat,
+                else -> ImageMessage ("$lastId", from, chat,
                     isIncoming, date, payload as String)
             }
         }

@@ -1,13 +1,13 @@
-package com.example.dev_intensive_2019.models
+package com.example.devintensive.models
 
 import java.util.*
 
-class ImgMessage(id: String,
+class TextMessage(id: String,
                  from: User?,
                  chat: Chat,
                  isIncoming: Boolean = false,
                  date: Date = Date(),
-                 var Image: String?
+                 var Text: String?
 ) : BaseMessage(id, from, chat, isIncoming, date) {
     override fun formatMessage(): String {
         TODO("Not yet implemented")

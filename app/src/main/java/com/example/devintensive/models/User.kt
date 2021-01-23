@@ -1,7 +1,7 @@
-package com.example.dev_intensive_2019.models
+package com.example.devintensive.models
 
 import java.util.*
-import com.example.dev_intensive_2019.utils.parseFullName
+import com.example.devintensive.utils.parseFullName
 
 data class User(val id : String,
            var firstName : String?,

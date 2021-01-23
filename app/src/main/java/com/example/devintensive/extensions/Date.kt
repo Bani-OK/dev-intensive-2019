@@ -1,8 +1,7 @@
-package com.example.dev_intensive_2019.extensions
+package com.example.devintensive.extensions
 
 import java.text.SimpleDateFormat
 import java.util.*
-import kotlin.math.min
 
 const val SECOND = 1000L
 const val MINUTE = 60 * SECOND

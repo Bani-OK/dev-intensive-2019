@@ -1,4 +1,4 @@
-package com.example.dev_intensive_2019.utils
+package com.example.devintensive.utils
 
 import java.util.*
 

@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.dev_intensive_2019"
+        applicationId "com.example.ru.skillbranch.devintensive"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1

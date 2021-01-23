@@ -1,4 +1,4 @@
-package com.example.dev_intensive_2019
+package com.example.devintensive
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
