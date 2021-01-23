@@ -5,4 +5,3 @@ libs/
 *.iml
 src/test/
 src/androidTest
-build.gradle
