@@ -1,4 +1,4 @@
-package com.example.devintensive.extensions
+package ru.skillbranch.devintensive.extensions
 
 fun String.truncate(num: Int = 16) : String {
     return if (this.trimEnd().length < num) {

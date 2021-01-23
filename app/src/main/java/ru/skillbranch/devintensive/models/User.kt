@@ -1,7 +1,7 @@
-package com.example.devintensive.models
+package ru.skillbranch.devintensive.models
 
 import java.util.*
-import com.example.devintensive.utils.parseFullName
+import ru.skillbranch.devintensive.utils.parseFullName
 
 data class User(val id : String,
            var firstName : String?,
