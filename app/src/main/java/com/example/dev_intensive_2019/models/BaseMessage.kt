@@ -14,7 +14,7 @@ abstract class BaseMessage(val id: String,
         fun makeMessage(from: User?, chat: Chat, date: Date,
                         type: String, payload: Any?, isIncoming: Boolean = false) : BaseMessage {
             lastId ++;
-            return when(payload) {
+            return when(type) {
                 "text" -> TextMessage("$lastId", from, chat,
                     isIncoming, date, payload as String)
                 else -> ImgMessage ("$lastId", from, chat,
